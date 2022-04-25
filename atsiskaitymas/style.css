@@ -1,0 +1,360 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+#desktop {
+  display: none;
+}
+header {
+  padding: 32px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: none;
+  padding: 24px;
+}
+header:last-child {
+  margin-left: auto;
+}
+nav a {
+  color: #555555;
+  font: weight 1px;
+  text-decoration: none;
+  margin: 0 27px;
+}
+nav a:last-child {
+  color: #ff3998;
+}
+
+main {
+  display: flex;
+  padding: 32px;
+  padding-right: 16px;
+  height: auto;
+width: 410;
+margin-bottom: 36px;
+}
+main h3 {
+  color: #ff3998;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+h1 {
+  font-size: 48px;
+  line-height: 100%;
+  text-align: Left;
+  vertical-align: Top;
+}
+main p {
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  vertical-align: Top;
+  margin-bottom: 32px;
+  color: #555555;
+}
+#pink-nft {
+  width: 189.62px;
+  height: 278px;
+  margin:auto;
+}
+#pink-nft1 {
+  display: none;
+  margin:auto;
+}
+main a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  line-height: 150%;
+  padding: 22px 56px 23px 56px;
+  color: black;
+  border: 5px solid;
+  border-color: #555555;
+  border-radius: 49.46px;
+  border-color: rgb(238, 146, 34);
+}
+#border {
+  padding-top: 32px; 
+}
+
+#upsell {
+  display: flex;
+  flex-direction: column;
+  height: 326px;
+  background-color: rgb(218,45,164);
+  background: linear-gradient(53deg, rgba(218,45,164,1) 0%, rgba(253,45,45,0.9780287114845938) 19%, rgba(226,180,26,1) 90%, rgba(41,234,63,1) 100%);
+  margin: auto;
+}
+#upsell h2 {
+  padding: 0 32px 0 32px;
+  font-weight: normal;
+  Font-size: 40px;
+  Line-height: 48px;
+  Line-height: 100%;
+  align-self:flex-start;
+  Vertical-align: Bottom;
+}
+#upsell p {
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  vertical-align: Top;
+  margin-bottom: 32px;
+  padding:0px 32px 0px 32px;
+}
+
+#press {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#press img {
+  padding: 5px 0;
+}
+#boomerang {
+  display: none;
+}
+#opendoor {
+  display: none;
+}
+#showcase {
+ padding-bottom: 92px;
+}
+#showcase h2 {
+  padding: 0 32px;
+  font-weight: normal;
+  font-size: Medium;
+  Font-size: 40px;
+  Line-height: 48px;
+  line-height: 100%;
+  vertical-align: Bottom;
+}
+#showcase h3 {
+  padding: 0 32px 32px 32px;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  vertical-align: Top;
+  font-weight:normal;
+  color: #555555;
+}
+#auction {
+  display: flex;
+  flex-wrap: wrap;
+}
+#auction img {
+  height: 400px;
+  max-width: 290px;
+  padding-left: 40px;
+}
+#auction a:nth-last-child(-n+3) {
+  display: none;
+}
+#footer-upsell {
+ display: flex;
+ justify-content: space-between;
+ border-top: solid #EEEEEE;
+ border-bottom: solid #EEEEEE;
+}
+#footer-upsell h3 {
+  color: #ff3998;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+#footer-upsell h1 {
+  Font-style: Black;
+Font-size: 56px;
+Line-height: 68px;
+Line-height: 100%;
+Vertical-align: Top;
+}
+#footer-upsell p {
+  Font-style: Regular;
+  Font-size: 20px;
+  Line-height: 30px;
+  Line-height: 150%;
+  Vertical-align: Top;
+  color: #555555;
+}
+#footer-upsell a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 30px;
+  line-height: 150%;
+  padding: 22px 56px 23px 56px;
+  color: black;
+  border: 5px solid;
+  border-color: #555555;
+  border-radius: 49.46px;
+  border-color: rgb(238, 146, 34);
+}
+#upsell-text {
+  padding: 66px 32px;
+}
+#woman {
+  max-width: 100%;
+  height: 467px;
+  align-self: flex-end;
+}
+#woman1 {
+  display: none;
+  margin:auto;
+}
+#footer {
+  padding: 0 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#footer p {
+  Font-style: Regular;
+  Font-size: 20px;
+  Line-height: 20px;
+  Line-height: 100%;
+  Vertical-align: Top;
+  color: #555555;
+  letter-spacing: 1px;
+}
+#left {
+  padding: 64px 0 7px 0;
+}
+#left a {
+  padding-right: 16px;
+}
+#right {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  padding-left: 0px;
+  padding-top: 40px;
+  list-style-type: none;
+  color: #555555;
+  Font-size: 17px;
+  Line-height: 20px;
+  Line-height: 100%;
+  max-width: 140px;
+}
+li {
+  padding-bottom: 12px;
+}
+.a {
+  letter-spacing: 2px;
+  padding: 0 75px 16px 0;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  Font-size: 20px;
+  Line-height: 20px;
+  Line-height: 100%;
+  padding-bottom: 105px;
+}
+h4:last-child {
+  display: none;
+}
+
+
+@media all and (min-width: 435px) and (max-width:992px){
+  #burgir {
+    display: none;
+  }
+  header nav {
+    display: block;
+    display: inline-block;
+  }
+  #hero {
+    padding-bottom: 102px;
+  }
+  #auction a:nth-last-child(-n+3) {
+    display: unset;
+  }
+  #auction img {
+    padding-bottom: 20px;
+  }
+  #woman1 {
+    display: none;
+  }
+  #bottom {
+    padding: 0 18px 71px 18px;
+  }
+}
+
+
+@media all and (min-width:993px) {
+  #desktop {
+    display: unset;
+  }
+  .container {
+    padding: 0 18px;
+  }
+  #burgir {
+    display: none;
+  }
+
+  header nav {
+    display: block;
+    display: inline-block;
+  }
+  main h1 {
+    font-size: 96px;
+  Line-height: 116px;
+  Line-height: 100%;
+  }
+  #pink-nft {
+    display: none;
+  }
+  #pink-nft1 {
+    display: unset;
+  }
+  #upsell {
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+  #boomerang {
+    display: unset;
+  }
+  #opendoor {
+    display: unset;
+  }
+  #boom {
+    display: none;
+  }
+  #auction a:nth-last-child(-n+3) {
+    display: unset;
+  }
+  #auction img {
+    padding-bottom: 20px;
+  } 
+  #woman {
+    display: none;
+  }
+  #woman1 {
+    display: unset;
+  }
+  #bottom {
+    padding: 0 18px 71px 18px;
+  }
+  h4:last-child {
+    display: unset;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/*
+background: rgb(218, 45, 164);
+background: linear-gradient(
+  66deg,
+  rgba(218, 45, 164, 1) 0%,
+  rgba(253, 45, 45, 0.9780287114845938) 19%,
+  rgba(253, 177, 45, 1) 53%,
+  rgba(234, 216, 41, 1) 95%,
+  rgba(41, 234, 63, 1) 100%
+);
+/*
